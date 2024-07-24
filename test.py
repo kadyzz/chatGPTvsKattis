@@ -3,6 +3,7 @@ import json
 import requests
 from bs4 import BeautifulSoup, Tag
 from autokattis import Kattis
+import subprocess
 
 # Initialize Kattis instance with your credentials
 username = os.getenv("KATTIS_USERNAME")
@@ -73,10 +74,10 @@ def get_solution_from_openai(problem_statement):
         "Authorization": f"Bearer {api_key}"
     }
     payload = {
-        "model": "gpt-3.5-turbo",
+        "model": "gpt-4o",
         "messages": [
             {"role": "system", "content": "You are an assistant that helps with programming problems."},
-            {"role": "user", "content": f"Solve the following problem:\n{problem_statement}"}
+            {"role": "user", "content": f"Solve the following problem correctly in Python. Don't give any explanations, answer only with the code:\n{problem_statement}"}
         ],
         "max_tokens": 1500,
         "temperature": 0.5
@@ -86,11 +87,35 @@ def get_solution_from_openai(problem_statement):
     
     if response.status_code == 200:
         result = response.json()
-        return result['choices'][0]['message']['content'].strip()
+        solution = result['choices'][0]['message']['content'].strip()
+        if solution.startswith("```python"):
+            solution = solution[len("```python"):].strip()
+        if solution.endswith("```"):
+            solution = solution[:-len("```")].strip()
+        return solution
     else:
         print(f"Request failed with status code {response.status_code}")
         print(response.text)
         return None
+    
+# Save solution to a Python file named with the problem ID
+def save_solution_to_file(problem_id, solution):
+    filename = f'{problem_id}.py'
+    with open(filename, 'w') as f:
+        f.write(solution)
+    return filename
+
+# Submit solution using Kattis CLI with automatic confirmation
+def submit_solution_to_kattis(filename, problem_id):
+    cmd = f'kattis {filename}'
+    process = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, stderr = process.communicate(input=b'y\n')
+    
+    stderr_output = stderr.decode(errors='replace')
+    stdout_output = stdout.decode(errors='replace')
+    
+    print(f"stdout: {stdout_output}")
+
 
 # Process problem statements and save solutions
 def process_statements_and_save_solutions():
@@ -115,12 +140,19 @@ def process_statements_and_save_solutions():
             "solution": solution
         })
     
+    # Save solution to a Python file and submit to Kattis
+        if solution:
+            filename = save_solution_to_file(problem_id, solution)
+            try:
+                submit_solution_to_kattis(filename, problem_id)
+            except subprocess.CalledProcessError:
+                continue
+    
     # Save solutions to a JSON file
     with open('problem_solutions_cache.json', 'w') as f:
         json.dump(solutions, f, indent=4)
 
 # Run the functions to fetch and cache problems and their statements
-fetch_and_cache_problems()
-fetch_problem_statements(limit=10)
+#fetch_and_cache_problems()
+fetch_problem_statements(limit=15)
 process_statements_and_save_solutions()
-
