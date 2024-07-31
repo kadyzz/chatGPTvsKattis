@@ -1,0 +1,454 @@
+{
+    "0": {
+        "problem_id": "10kindsofpeople",
+        "result": "[x                        ]  1 / 25\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "1": {
+        "problem_id": "1dfroggereasy",
+        "result": "[......................................]  38 / 38\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "2": {
+        "problem_id": "1dfroggerhard",
+        "result": "[x           ]  1 / 12\r\n\u001b[31mRun Time Error (0.13\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.13\ufffds)\u001b[0m"
+    },
+    "3": {
+        "problem_id": "1sforall",
+        "result": "[..x                                    ]  3 / 39\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "4": {
+        "problem_id": "2048",
+        "result": "[...................]  19 / 19\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "5": {
+        "problem_id": "246greaaat",
+        "result": "[x                        ]  1 / 25\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "6": {
+        "problem_id": "24game",
+        "result": "[......................................................................................................                  ]  102 / 120\r\n\u001b[32mAccepted (>\ufffd1.00\ufffds)\u001b[0m\n\n\u001b[32mAccepted (>\ufffd1.00\ufffds)\u001b[0m"
+    },
+    "7": {
+        "problem_id": "2naire",
+        "result": "[x ]  1 / 2\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "8": {
+        "problem_id": "aaah",
+        "result": "[....................................................]  52 / 52\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "9": {
+        "problem_id": "abandonedanimal",
+        "result": "[.x                                    ]  2 / 38\r\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m"
+    },
+    "10": {
+        "problem_id": "4thought",
+        "result": "[x  ]  1 / 3\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "11": {
+        "problem_id": "8queens",
+        "result": "[......................................................................................]  86 / 86\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "12": {
+        "problem_id": "99problems",
+        "result": "[x                  ]  1 / 19\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "13": {
+        "problem_id": "99problems2",
+        "result": "[................                                       ]  16 / 55\r\n\u001b[32mAccepted (>\ufffd1.00\ufffds)\u001b[0m\n\n\u001b[32mAccepted (>\ufffd1.00\ufffds)\u001b[0m"
+    },
+    "14": {
+        "problem_id": "a1paper",
+        "result": "[x            ]  1 / 13\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "15": {
+        "problem_id": "aa",
+        "result": "\r\u001b[31mCompile Error\u001b[0m\n\n\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rNew...\rTest cases: \r\u001b[31mCompile Error\u001b[0m"
+    },
+    "16": {
+        "problem_id": "aaah",
+        "result": "[....................................................]  52 / 52\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "17": {
+        "problem_id": "abandonedanimal",
+        "result": "[..x                                   ]  3 / 38\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "18": {
+        "problem_id": "abc",
+        "result": "[............]  12 / 12\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "19": {
+        "problem_id": "abcstring",
+        "result": "[x        ]  1 / 9\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "20": {
+        "problem_id": "abinitio",
+        "result": "[...x             ]  4 / 17\r\n\u001b[31mTime Limit Exceeded (>\ufffd1.00\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (>\ufffd1.00\ufffds)\u001b[0m"
+    },
+    "21": {
+        "problem_id": "aboveaverage",
+        "result": "[..]  2 / 2\r\n\u001b[32mAccepted (0.07\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.07\ufffds)\u001b[0m"
+    },
+    "22": {
+        "problem_id": "abridgedreading",
+        "result": "[x                               ]  1 / 32\r\n\u001b[31mRun Time Error (0.15\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.15\ufffds)\u001b[0m"
+    },
+    "23": {
+        "problem_id": "absolutelysymmetric",
+        "result": "[x                                   ]  1 / 36\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "24": {
+        "problem_id": "abstractart",
+        "result": "[x                     ]  1 / 22\r\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m"
+    },
+    "25": {
+        "problem_id": "abstractpainting",
+        "result": "[.x                                                        ]  2 / 58\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "26": {
+        "problem_id": "absurdistan2",
+        "result": "[x                 ]  1 / 18\r\n\u001b[31mRun Time Error (0.13\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.13\ufffds)\u001b[0m"
+    },
+    "27": {
+        "problem_id": "absurdistan3",
+        "result": "[x                     ]  1 / 22\r\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m"
+    },
+    "28": {
+        "problem_id": "acappellarecording",
+        "result": "[.................]  17 / 17\r\n\u001b[32mAccepted (0.12\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.12\ufffds)\u001b[0m"
+    },
+    "29": {
+        "problem_id": "acceptableseatingarrangements",
+        "result": "[x        ]  1 / 9\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "30": {
+        "problem_id": "accessdenied",
+        "result": "[x                                                                                           ]  1 / 92\r\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m"
+    },
+    "31": {
+        "problem_id": "accesspoints",
+        "result": "[x                                                 ]  1 / 50\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "32": {
+        "problem_id": "acearbiter",
+        "result": "[x                                       ]  1 / 40\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "33": {
+        "problem_id": "acm",
+        "result": "[.......]  7 / 7\r\n\u001b[32mAccepted (0.08\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.08\ufffds)\u001b[0m"
+    },
+    "34": {
+        "problem_id": "acm2",
+        "result": "[..x        ]  3 / 11\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "35": {
+        "problem_id": "acomplexproblem",
+        "result": "[x                       ]  1 / 24\r\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m"
+    },
+    "36": {
+        "problem_id": "ada",
+        "result": "[x                ]  1 / 17\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "37": {
+        "problem_id": "adaloveslaces",
+        "result": "[x                ]  1 / 17\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "38": {
+        "problem_id": "addemup",
+        "result": "[.x            ]  2 / 14\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "39": {
+        "problem_id": "addingtrouble",
+        "result": "[.......................................................................................................................]  119 / 119\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "40": {
+        "problem_id": "addingupthevotes",
+        "result": "[x                                                                        ]  1 / 73\r\n\u001b[31mTime Limit Exceeded (0.06\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (0.06\ufffds)\u001b[0m"
+    },
+    "41": {
+        "problem_id": "addingwords",
+        "result": "[...........]  11 / 11\r\n\u001b[32mAccepted (0.09\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.09\ufffds)\u001b[0m"
+    },
+    "42": {
+        "problem_id": "additiongame",
+        "result": "[...x                            ]  4 / 32\r\n\u001b[31mTime Limit Exceeded (>\ufffd1.00\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (>\ufffd1.00\ufffds)\u001b[0m"
+    },
+    "43": {
+        "problem_id": "addormultiply",
+        "result": "[..x             ]  3 / 16\r\n\u001b[31mTime Limit Exceeded (>\ufffd7.00\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (>\ufffd7.00\ufffds)\u001b[0m"
+    },
+    "44": {
+        "problem_id": "addtwonumbers",
+        "result": "[................]  16 / 16\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "45": {
+        "problem_id": "adjoin",
+        "result": "[x                              ]  1 / 31\r\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m"
+    },
+    "46": {
+        "problem_id": "administrativeproblems",
+        "result": "[.x]  2 / 2\r\n\u001b[31mRun Time Error (0.18\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.18\ufffds)\u001b[0m"
+    },
+    "47": {
+        "problem_id": "adolescentarchitecture",
+        "result": "[x                                              ]  1 / 47\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "48": {
+        "problem_id": "ads",
+        "result": "[..x                  ]  3 / 21\r\n\u001b[31mWrong Answer (0.12\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.12\ufffds)\u001b[0m"
+    },
+    "49": {
+        "problem_id": "adventurebegins",
+        "result": "[x                               ]  1 / 32\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "50": {
+        "problem_id": "adventuremoving4",
+        "result": "[x         ]  1 / 10\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "51": {
+        "problem_id": "advertisingicpc",
+        "result": "[x                                               ]  1 / 48\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "52": {
+        "problem_id": "aevintyrarod",
+        "result": "[.......x  8  ]  8 / 361\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "53": {
+        "problem_id": "afjormun",
+        "result": "[...............................]  31 / 31\r\n\u001b[32mAccepted (0.11\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.11\ufffds)\u001b[0m"
+    },
+    "54": {
+        "problem_id": "aflmaelingar",
+        "result": "[...x                                 ]  4 / 37\r\n\u001b[31mTime Limit Exceeded (0.07\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (0.07\ufffds)\u001b[0m"
+    },
+    "55": {
+        "problem_id": "agamemnonsodyssey",
+        "result": "[.x                         ]  2 / 27\r\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m"
+    },
+    "56": {
+        "problem_id": "agario",
+        "result": "[.x                           ]  2 / 29\r\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m"
+    },
+    "57": {
+        "problem_id": "agglomerator",
+        "result": "[x                ]  1 / 17\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "58": {
+        "problem_id": "ahorseshoein",
+        "result": "[x                                                                                                          ]  1 / 228\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "59": {
+        "problem_id": "aijeopardy",
+        "result": "[x                                                 ]  1 / 50\r\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m"
+    },
+    "60": {
+        "problem_id": "airconditioned",
+        "result": "[..................................]  34 / 34\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "61": {
+        "problem_id": "airlinehub",
+        "result": "[..]  2 / 2\r\n\u001b[32mAccepted (0.49\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.49\ufffds)\u001b[0m"
+    },
+    "62": {
+        "problem_id": "airport",
+        "result": "[......x                                                                         ]  7 / 80\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "63": {
+        "problem_id": "airportcoffee",
+        "result": "[x                       ]  1 / 24\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "64": {
+        "problem_id": "airportlogistics",
+        "result": "[x                         ]  1 / 26\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "65": {
+        "problem_id": "airports",
+        "result": "[...x          ]  4 / 14\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "66": {
+        "problem_id": "airrally",
+        "result": "[x            ]  1 / 13\r\n\u001b[31mTime Limit Exceeded (0.08\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (0.08\ufffds)\u001b[0m"
+    },
+    "67": {
+        "problem_id": "akcija",
+        "result": "[............]  12 / 12\r\n\u001b[32mAccepted (0.10\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.10\ufffds)\u001b[0m"
+    },
+    "68": {
+        "problem_id": "aladin",
+        "result": "[....x        ]  5 / 13\r\n\u001b[31mTime Limit Exceeded (>\ufffd6.00\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (>\ufffd6.00\ufffds)\u001b[0m"
+    },
+    "69": {
+        "problem_id": "alchemy",
+        "result": "[x                                                                                                    ]  1 / 101\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "70": {
+        "problem_id": "alchemy101",
+        "result": "[x       ]  1 / 8\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "71": {
+        "problem_id": "alchemy2",
+        "result": "[x                                                                           ]  1 / 76\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "72": {
+        "problem_id": "alcohol",
+        "result": "[.x                                                           ]  2 / 61\r\n\u001b[31mWrong Answer (0.12\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.12\ufffds)\u001b[0m"
+    },
+    "73": {
+        "problem_id": "aldursrodun",
+        "result": "[................................................................................................................................................................]  160 / 160\r\n\u001b[32mAccepted (0.08\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.08\ufffds)\u001b[0m"
+    },
+    "74": {
+        "problem_id": "alea",
+        "result": "[x ]  1 / 2\r\n\u001b[31mWrong Answer (0.40\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.40\ufffds)\u001b[0m"
+    },
+    "75": {
+        "problem_id": "aleaiactaest",
+        "result": "[x                          ]  1 / 27\r\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m"
+    },
+    "76": {
+        "problem_id": "alehouse",
+        "result": "[x                                       ]  1 / 40\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "77": {
+        "problem_id": "aleidibio",
+        "result": "[............................................]  44 / 44\r\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.06\ufffds)\u001b[0m"
+    },
+    "78": {
+        "problem_id": "alexandbarb",
+        "result": "[x            ]  1 / 13\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "79": {
+        "problem_id": "alicedigital",
+        "result": "[.x]  2 / 2\r\n\u001b[31mWrong Answer (0.15\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.15\ufffds)\u001b[0m"
+    },
+    "80": {
+        "problem_id": "aliencodebreaking",
+        "result": "[x    ]  1 / 5\r\n\u001b[31mMemory Limit Exceeded (4.52\ufffds)\u001b[0m\n\n\u001b[31mMemory Limit Exceeded (4.52\ufffds)\u001b[0m"
+    },
+    "81": {
+        "problem_id": "alienintegers",
+        "result": "[..x                                                    ]  3 / 55\r\n\u001b[31mTime Limit Exceeded (>\ufffd1.00\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (>\ufffd1.00\ufffds)\u001b[0m"
+    },
+    "82": {
+        "problem_id": "alienmath",
+        "result": "[x                         ]  1 / 26\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "83": {
+        "problem_id": "alienmicrowave",
+        "result": "[x                 ]  1 / 18\r\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m"
+    },
+    "84": {
+        "problem_id": "aliennumbers",
+        "result": "[x  ]  1 / 3\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "85": {
+        "problem_id": "aliens",
+        "result": "[.x]  2 / 2\r\n\u001b[31mTime Limit Exceeded (>\ufffd7.00\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (>\ufffd7.00\ufffds)\u001b[0m"
+    },
+    "86": {
+        "problem_id": "allaboutthatbase",
+        "result": "[x   ]  1 / 4\r\n\u001b[31mWrong Answer (0.13\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.13\ufffds)\u001b[0m"
+    },
+    "87": {
+        "problem_id": "allcolourings",
+        "result": "[......x             ]  7 / 20\r\n\u001b[31mMemory Limit Exceeded (0.75\ufffds)\u001b[0m\n\n\u001b[31mMemory Limit Exceeded (0.75\ufffds)\u001b[0m"
+    },
+    "88": {
+        "problem_id": "alldifferentdirections",
+        "result": "[x          ]  1 / 11\r\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m"
+    },
+    "89": {
+        "problem_id": "allergentesting",
+        "result": "[...................................................]  51 / 51\r\n\u001b[32mAccepted (0.08\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.08\ufffds)\u001b[0m"
+    },
+    "90": {
+        "problem_id": "allergy",
+        "result": "[x                           ]  1 / 28\r\n\u001b[31mTime Limit Exceeded (>\ufffd2.00\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (>\ufffd2.00\ufffds)\u001b[0m"
+    },
+    "91": {
+        "problem_id": "allfaxnoprinter",
+        "result": "[....x               ]  5 / 20\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "92": {
+        "problem_id": "allinthefamily",
+        "result": "[x                                ]  1 / 33\r\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.08\ufffds)\u001b[0m"
+    },
+    "93": {
+        "problem_id": "alliswell",
+        "result": "[x                               ]  1 / 32\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "94": {
+        "problem_id": "allkill",
+        "result": "[x                                ]  1 / 33\r\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m"
+    },
+    "95": {
+        "problem_id": "almostbalanced",
+        "result": "[x                 ]  1 / 18\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "96": {
+        "problem_id": "almostsorted",
+        "result": "[x                                                                    ]  1 / 69\r\n\u001b[31mTime Limit Exceeded (>\ufffd2.00\ufffds)\u001b[0m\n\n\u001b[31mTime Limit Exceeded (>\ufffd2.00\ufffds)\u001b[0m"
+    },
+    "97": {
+        "problem_id": "almostsorted2",
+        "result": "[........x               ]  9 / 24\r\n\u001b[31mWrong Answer (0.12\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.12\ufffds)\u001b[0m"
+    },
+    "98": {
+        "problem_id": "almostbalanced",
+        "result": "[x                 ]  1 / 18\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "99": {
+        "problem_id": "almostperfect",
+        "result": "[..]  2 / 2\r\n\u001b[32mAccepted (0.08\ufffds)\u001b[0m\n\n\u001b[32mAccepted (0.08\ufffds)\u001b[0m"
+    },
+    "100": {
+        "problem_id": "almostsorted",
+        "result": "[.x                                                                   ]  2 / 69\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "101": {
+        "problem_id": "almostsorted2",
+        "result": "[........x               ]  9 / 24\r\n\u001b[31mWrong Answer (0.12\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.12\ufffds)\u001b[0m"
+    },
+    "102": {
+        "problem_id": "almostunionfind",
+        "result": "[x       ]  1 / 8\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "103": {
+        "problem_id": "alphabet",
+        "result": "[x                                                                                             ]  1 / 94\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "104": {
+        "problem_id": "alphabetanimals",
+        "result": "[x                                  ]  1 / 35\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "105": {
+        "problem_id": "alphabetspam",
+        "result": "[x                 ]  1 / 18\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "106": {
+        "problem_id": "alternating",
+        "result": "[............................                                                                                                                  ]  28 / 142\r\n\u001b[32mAccepted (>\ufffd3.00\ufffds)\u001b[0m\n\n\u001b[32mAccepted (>\ufffd3.00\ufffds)\u001b[0m"
+    },
+    "107": {
+        "problem_id": "alternatingalgorithm",
+        "result": "[...x                                                                                                                                                                ]  4 / 164\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "108": {
+        "problem_id": "altosinging",
+        "result": "[.x                          ]  2 / 28\r\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m\n\n\u001b[31mRun Time Error (0.14\ufffds)\u001b[0m"
+    },
+    "109": {
+        "problem_id": "altruisticamphibians",
+        "result": "[x                    ]  1 / 21\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "110": {
+        "problem_id": "amanda",
+        "result": "[x                           ]  1 / 28\r\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.06\ufffds)\u001b[0m"
+    },
+    "111": {
+        "problem_id": "amazing",
+        "result": "[..x                ]  3 / 19\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    },
+    "111": {
+        "problem_id": "amazing",
+        "result": "[..x                ]  3 / 19\r\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m\n\n\u001b[31mWrong Answer (0.07\ufffds)\u001b[0m"
+    }
+}
