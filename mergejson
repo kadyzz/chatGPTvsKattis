@@ -1,0 +1,74 @@
+import json
+
+def merge_json_files(file1, file2, output_file):
+    # Load JSON data from files
+    try:
+        with open(file1, 'r') as f:
+            data1 = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"Error reading JSON file {file1}: {e}")
+        return
+    except FileNotFoundError as e:
+        print(f"File not found: {e}")
+        return
+    
+    try:
+        with open(file2, 'r') as f:
+            data2 = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"Error reading JSON file {file2}: {e}")
+        return
+    except FileNotFoundError as e:
+        print(f"File not found: {e}")
+        return
+
+    # Print first few entries of each file for debugging
+    print("First few entries in file1.json:")
+    print(json.dumps(data1, indent=4))
+    
+    print("First few entries in file2.json:")
+    print(json.dumps(data2, indent=4))
+
+    # Create a dictionary to hold data from file2 for quick lookup
+    data2_dict = {item['id']: item for item in data2}
+    print("Data2 dictionary keys (IDs):")
+    print(list(data2_dict.keys())[:10])  # Print first few IDs for debugging
+
+    # Create the merged data list
+    merged_data = []
+
+    # Process data1 and merge with data2 based on matching IDs
+    for key, item in data1.items():
+        if 'problem_id' in item:
+            normalized_id = item['problem_id']
+            if normalized_id in data2_dict:
+                merged_item = item.copy()
+                merged_item.update(data2_dict[normalized_id])
+                merged_item['id'] = normalized_id  # Ensure 'id' key is consistent
+                merged_data.append(merged_item)
+                print(f"Merged item: {json.dumps(merged_item, indent=4)}")
+            else:
+                print(f"ID '{normalized_id}' from file1 not found in file2.")
+                # Include item even if there's no match in file2 (optional)
+                merged_data.append(item)
+        else:
+            print(f"Skipping item without 'problem_id' in file1.json: {json.dumps(item, indent=4)}")
+
+    # Debugging: Print the merged list to verify
+    print(f"Merged list: {json.dumps(merged_data, indent=4)}")
+
+    # Save merged data to the output file
+    try:
+        with open(output_file, 'w') as f:
+            json.dump(merged_data, f, indent=4)
+        print(f"Successfully wrote to {output_file}")
+    except Exception as e:
+        print(f"Error writing to file: {e}")
+
+# Specify the file paths
+file1 = 'kattis_results.json'
+file2 = 'problems_cache.json'
+output_file = 'mergedresult.json'
+
+# Call the function to merge JSON files
+merge_json_files(file1, file2, output_file)

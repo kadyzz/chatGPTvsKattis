@@ -17,6 +17,7 @@ def save_results(filename, results):
         json.dump(results, file, indent=4)
 
 def submit_solution_to_kattis(filename, problem_id, attempt, problem_statement, conversation_history, i):
+    time.sleep(60) # Pause for a minute before submitting to avoid hitting submission limits
     cmd = f'kattis {filename}'
     process = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate(input=b'y\n')
@@ -32,29 +33,29 @@ def submit_solution_to_kattis(filename, problem_id, attempt, problem_statement, 
 
     print(conversation_history)
 
-    #time.sleep(60) 
-
     if process.returncode != 0:
         if attempt != 2:
+            attempt += 1
             print(f"Attempt {attempt} failed for problem {problem_id} with error: {last_line}. Retrying...")
             feedback = f"The solution was incorrect or caused a runtime error. The last line of the output received was: '{last_line}'. Please provide a corrected solution. Give no explanation or text, only the code."
             revised_solution, new_conversation_history = get_solution_from_openai(problem_statement, feedback, conversation_history)
             if revised_solution:
-                new_filename = save_solution_to_file(problem_id, revised_solution, f"solutions{attempt + 1}")
-                submit_solution_to_kattis(new_filename, problem_id, attempt + 1, problem_statement, new_conversation_history, i)
+                new_filename = save_solution_to_file(problem_id, revised_solution, f"solutions{attempt}")
+                submit_solution_to_kattis(new_filename, problem_id, attempt, problem_statement, new_conversation_history, i)
         else:
             print(f"Max attempts reached for problem {problem_id}. Moving to the next problem.")
     elif "token" in last_line:
         print(f"max token reached {problem_id}")
     else:
-            print(f"Solution submitted successfully for problem {problem_id}")
+        print(f"Solution submitted successfully for problem {problem_id}")
 
     results = load_results('kattis_results.json')
     
     # Save the latest response from Kattis to a dictionary
     results[i] = {
         "problem_id": problem_id,
-        "result": stdout_output.strip().split('\rTest cases: ')[-1] + "\n\n" + last_line
+        "result": stdout_output.strip().split('\rTest cases: ')[-1] + "\n\n" + last_line,
+        "attempt": attempt
     }
 
     # Save results after each problem is processed

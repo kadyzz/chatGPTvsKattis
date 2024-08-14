@@ -1,0 +1,22 @@
+import json
+
+# Load the JSON data from the file
+with open('mergedresult.json', 'r') as f:
+    data = json.load(f)
+
+# Separate the objects by difficulty category
+easy_problems = [problem for problem in data if problem['category'].lower() == 'easy']
+medium_problems = [problem for problem in data if problem['category'].lower() == 'medium']
+hard_problems = [problem for problem in data if problem['category'].lower() == 'hard']
+
+# Save the separated lists to separate JSON files
+with open('easy_problems.json', 'w') as f:
+    json.dump(easy_problems, f, indent=4)
+
+with open('medium_problems.json', 'w') as f:
+    json.dump(medium_problems, f, indent=4)
+
+with open('hard_problems.json', 'w') as f:
+    json.dump(hard_problems, f, indent=4)
+
+print("Files created: easy_problems.json, medium_problems.json, hard_problems.json")
