@@ -1,5 +1,5 @@
 # Kattis
-Testing Copilots Algorithm Solving Capabilities
+Testing ChatGPT Algorithm Solving Capabilities
 
 Requires: 
 
